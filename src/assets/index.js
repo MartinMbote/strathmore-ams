@@ -7,5 +7,6 @@ import youTubelogo from "./youtube.png";
 import email from "./email.png";
 import pin from "./pin.png";
 import phone from "./phone-call.png";
+import downArrow from "./down-arrow.png";
 
-export { strathLogo, heroImg, strathLib, faceIcon, linkedIn, youTubelogo, email, pin, phone };
+export { strathLogo, heroImg, strathLib, faceIcon, linkedIn, youTubelogo, email, pin, phone, downArrow };
