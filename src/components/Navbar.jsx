@@ -41,14 +41,14 @@ const Navbar = () => {
   return (
     <div className='bg-nav-blue w-full h-[5vw]'>
         <div className='flex'>
-            <div className='bg-white pt-[0.6vw] pl-[2vw] w-[20vw]'>
+            <div className='bg-white pt-[0.6vw] pl-[2vw] w-[15vw]'>
                 <img src={strathLogo} className='h-[4.1vw]' />
             </div>
             <div className="w-0 h-0 border-b-[5vw] border-b-transparent border-l-[3vw] border-l-white "></div>
           
             {navBarContents.map((section, index) => (
               <div>
-                <div className='text-[1vw] font-semibold text-white flex gap-[0.3vw] mt-[3vw] mr-[3vw] cursor-pointer' key={index} onClick={rotateImage}>
+                <div className='text-[1vw] font-semibold text-white flex gap-[0.3vw] mt-[1.9vw] mr-[1vw] ml-[1vw] cursor-pointer' key={index} onClick={rotateImage}>
                   <p>
                     {section.title}
                   </p>
@@ -61,7 +61,7 @@ const Navbar = () => {
                 </div>
               
                 {isVisible && (
-                  <div className='absolute z-10 mt-[0.4vw] ml-[-1.5vw] text-center rounded-[0.2vw] text-[1vw] w-[12vw] font-normal bg-white'>
+                  <div className='absolute z-10 mt-[0.4vw] ml-[-0.7vw] text-center rounded-[0.2vw] text-[1vw] w-[12vw] font-normal bg-white'>
                     {section.titleContent.map((content, i) => (
                       <div key={i}>
                         <p className='my-[0.4vw]'>
@@ -78,6 +78,12 @@ const Navbar = () => {
             
               </div>
             ))}
+
+            <div className='absolute right-[2vw] top-[1.3vw] py-[0.5vw] px-[2vw] text-[1vw] rounded-[0.3vw] cursor-pointer font-bold text-strathmore-blue bg-strathmore-yellow'>
+              <p>
+                LOG IN
+              </p>
+            </div>
         </div>
     </div>
   )

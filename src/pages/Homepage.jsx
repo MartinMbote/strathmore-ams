@@ -9,7 +9,7 @@ const Homepage = () => {
     <div>
         <Navbar />
         <div>
-            <div className='bg-strathmore-red text-white text-[2vw] font-light italic py-[0.8vw] flex justify-center w-full absolute'>
+            <div className='bg-strathmore-red text-white text-[1.1vw] font-light italic py-[0.8vw] flex justify-center w-full absolute'>
                 <h1>
                     Welcome to Strathmore eLearning System
                 </h1>
