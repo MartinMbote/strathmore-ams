@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { strathLogo, downArrow } from '../assets'
+import { Link } from 'react-router-dom';
 
 const Navbar = () => {
 
@@ -78,12 +79,14 @@ const Navbar = () => {
             
               </div>
             ))}
-
-            <div className='absolute right-[2vw] top-[1.3vw] py-[0.5vw] px-[2vw] text-[1vw] rounded-[0.3vw] cursor-pointer font-bold text-strathmore-blue bg-strathmore-yellow'>
-              <p>
-                LOG IN
-              </p>
-            </div>
+            
+            <Link to="/strathmore-ams/loginpage">
+              <div className='absolute right-[2vw] top-[1.3vw] py-[0.5vw] px-[2vw] text-[1vw] rounded-[0.3vw] cursor-pointer font-bold text-strathmore-blue bg-strathmore-yellow'>
+                <p>
+                  LOG IN
+                </p>
+              </div>
+            </Link>
         </div>
     </div>
   )
