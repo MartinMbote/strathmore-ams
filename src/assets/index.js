@@ -8,5 +8,7 @@ import email from "./email.png";
 import pin from "./pin.png";
 import phone from "./phone-call.png";
 import downArrow from "./down-arrow.png";
+import profileIcon from "./profile-user.png";
+import lockIcon from "./lock.png";
 
-export { strathLogo, heroImg, strathLib, faceIcon, linkedIn, youTubelogo, email, pin, phone, downArrow };
+export { strathLogo, heroImg, strathLib, faceIcon, linkedIn, youTubelogo, email, pin, phone, downArrow, profileIcon, lockIcon };

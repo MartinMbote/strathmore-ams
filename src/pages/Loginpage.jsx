@@ -1,5 +1,5 @@
 import React from 'react'
-import { strathLogo, strathLib } from '../assets'
+import { strathLogo, strathLib, profileIcon, lockIcon } from '../assets'
 import { Link } from 'react-router-dom'
 
 const Loginpage = () => {
@@ -29,15 +29,37 @@ const Loginpage = () => {
                     </div>
 
                     <div className='w-full h-[17vw] bg-maroon'>
+                        <div className='flex justify-center gap-[1.8vw] font-semibold pt-[2vw] mb-[2vw] text-[1.1vw] text-white'>
+                            <div>
+                                <div className='flex justify-center'>
+                                    <h1 className='text-strathmore-yellow'>
+                                        LOGIN
+                                    </h1>
+                                </div>                               
+
+                                <div className='w-[5vw] h-[0.15vw] bg-strathmore-yellow'></div>
+                            </div>
+
+                            <h1>
+                                QUICK LINKS
+                            </h1>
+                        </div>
+
                         <form className='flex justify-center'>
                             <div>
-                                <div>
-                                    
-
+                                <div className='flex gap-[0.5vw]'>
+                                    <img src={profileIcon} className='h-[1.4vw] mt-[0.35vw]' />                               
                                     <input type="text" name="username" placeholder='Username' className='border placeholder-gray-300 text-[1vw] pl-[1vw] border-gray-400 rounded-[0.4vw] w-[17vw] h-[2vw]' />
                                 </div>
+
+                                <div className='flex mt-[0.8vw] gap-[0.5vw]'>
+                                    <img src={lockIcon} className='h-[1.4vw] mt-[0.3vw]' />                               
+                                    <input type="password" name="username" placeholder='Username' className='border placeholder-gray-300 text-[1vw] pl-[1vw] border-gray-400 rounded-[0.4vw] w-[17vw] h-[2vw]' />
+                                </div>
                                 
-                                <button className='py-[0.3vw] px-[2vw] text-[1vw] rounded-[0.3vw] cursor-pointer font-semibold text-white bg-strathmore-yellow'>LOG IN</button>
+                                <div className='flex justify-center'>
+                                    <button className='py-[0.3vw] px-[2vw] text-[1vw] rounded-[1vw] cursor-pointer font-semibold text-white bg-strathmore-yellow mt-[1.5vw]'>LOG IN</button>
+                                </div>
                             </div>
                         </form>
                     </div>
