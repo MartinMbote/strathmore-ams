@@ -54,12 +54,18 @@ const Loginpage = () => {
 
                                 <div className='flex mt-[0.8vw] gap-[0.5vw]'>
                                     <img src={lockIcon} className='h-[1.4vw] mt-[0.3vw]' />                               
-                                    <input type="password" name="username" placeholder='Username' className='border placeholder-gray-300 text-[1vw] pl-[1vw] border-gray-400 rounded-[0.4vw] w-[17vw] h-[2vw]' />
+                                    <input type="password" name="Password" placeholder='Password' className='border placeholder-gray-300 text-[1vw] pl-[1vw] border-gray-400 rounded-[0.4vw] w-[17vw] h-[2vw]' />
                                 </div>
                                 
-                                <div className='flex justify-center'>
+                                {/* <div className='flex justify-center'>
                                     <button className='py-[0.3vw] px-[2vw] text-[1vw] rounded-[1vw] cursor-pointer font-semibold text-white bg-strathmore-yellow mt-[1.5vw]'>LOG IN</button>
-                                </div>
+                                </div> */}
+
+                                <Link to="/strathmore-ams/studentportal">
+                                    <div className='flex justify-center'>
+                                        <button className='py-[0.3vw] px-[2vw] text-[1vw] rounded-[1vw] cursor-pointer font-semibold text-white bg-strathmore-yellow mt-[1.5vw]'>LOG IN</button>
+                                    </div>
+                                </Link>
                             </div>
                         </form>
                     </div>
