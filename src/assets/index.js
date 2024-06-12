@@ -10,5 +10,8 @@ import phone from "./phone-call.png";
 import downArrow from "./down-arrow.png";
 import profileIcon from "./profile-user.png";
 import lockIcon from "./lock.png";
+import bellIcon from "./bell.png";
+import me from "./me.jpg";
+import bgImage from "./background-image.jpg";
 
-export { strathLogo, heroImg, strathLib, faceIcon, linkedIn, youTubelogo, email, pin, phone, downArrow, profileIcon, lockIcon };
+export { strathLogo, heroImg, strathLib, faceIcon, linkedIn, youTubelogo, email, pin, phone, downArrow, profileIcon, lockIcon, bellIcon, me, bgImage };
