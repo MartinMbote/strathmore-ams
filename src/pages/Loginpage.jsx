@@ -68,8 +68,16 @@ const Loginpage = () => {
                         <p>
                             For security reasons, please <span className='text-strathmore-yellow font-semibold'> log out </span> and exit your web browser when you are done accessing services that require authentication
                         </p>
+                    </div>                    
+
+                    <div className='flex justify-center'>
+                        <div className='z-20 text-[1vw] text-white mt-[5.5vw]'>
+                            <p>
+                                &copy; Strathmore University 2023
+                            </p>
+                        </div> 
                     </div>
-                </div>
+                </div>              
             </div>
         </div>
     </div>
