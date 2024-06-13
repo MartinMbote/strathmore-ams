@@ -18,6 +18,7 @@ export default {
         'nav-logged': '#f2f8fe',
         'mockup-yellow': '#f0ae12',
         'maroon': '#894c59',
+        'light-yellow': '#f8d280',
       },
     },
   },
