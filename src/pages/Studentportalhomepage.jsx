@@ -14,6 +14,10 @@ const Studentportalhomepage = () => {
         </div>
 
         <SidePanel />
+
+        <div>
+          <div className='absolute w-[10vw] h-[5vw] left-[30vw] bg-white'></div>
+        </div>
     </div>
   )
 }
