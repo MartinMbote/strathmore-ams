@@ -22,5 +22,6 @@ import progressIcon from "./clipboard.png";
 import examsIcon from "./exam.png";
 import feeIcon from "./receipt.png";
 import graduationIcon from "./graduation.png";
+import strathBanner from "./theme-of-the-year-2023-400x182.png"
 
-export { strathLogo, heroImg, strathLib, faceIcon, linkedIn, youTubelogo, email, pin, phone, downArrow, profileIcon, lockIcon, bellIcon, me, bgImage, homeIcon, registrationIcon, courseWorkIcon, attendanceIcon, mentorshipIcon, progressIcon, examsIcon, feeIcon, graduationIcon };
+export { strathLogo, heroImg, strathLib, faceIcon, linkedIn, youTubelogo, email, pin, phone, downArrow, profileIcon, lockIcon, bellIcon, me, bgImage, homeIcon, registrationIcon, courseWorkIcon, attendanceIcon, mentorshipIcon, progressIcon, examsIcon, feeIcon, graduationIcon, strathBanner };

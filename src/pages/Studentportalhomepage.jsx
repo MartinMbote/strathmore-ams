@@ -1,15 +1,45 @@
 import React from 'react'
 import NavbarStudentPortal from '../components/NavbarStudentPortal'
 import SidePanel from '../components/SidePanel'
-import { bgImage } from '../assets'
+import { bgImage, strathBanner } from '../assets'
 
 const Studentportalhomepage = () => {
 
   const profileData = [
     {
       title: "Student No.",
-      content: "DITNRB"
-    }
+      content: "DITNRB242622"
+    },
+
+    {
+      title: "Full Name",
+      content: "Martin Maina"
+    },
+
+    {
+      title: "Full Name",
+      content: "3rd March 2023"
+    },
+
+    {
+      title: "Full Name",
+      content: "0700000000"
+    },
+
+    {
+      title: "Full Name",
+      content: "Martinmmbote@gmail.com"
+    },
+
+    {
+      title: "Full Name",
+      content: "St. Pauls"
+    },
+
+    {
+      title: "Full Name",
+      content: "Christian"
+    },
   ]
 
   return (
@@ -23,7 +53,7 @@ const Studentportalhomepage = () => {
 
         <SidePanel />
 
-        <div className='absolute left-[30vw] top-[10vw] flex'>
+        <div className='absolute left-[30vw] top-[7vw] flex'>
           <div className='w-[10vw] pr-[0.5vw] pb-[0.2vw] text-[1vw] text-right bg-strathmore-red text-white'>
             <div>
               <p className='my-[0.1vw]'>
@@ -54,37 +84,45 @@ const Studentportalhomepage = () => {
                 Religion
               </p>
             </div>
+          </div>          
+
+          <div className='w-[15vw] bg-nav-blue text-[1vw] text-white pl-[0.5vw]'>
+            {profileData.map((word, index) => (
+              <p className='my-[0.1vw]'>
+                {word.content}
+              </p>
+            ))}
           </div>
+          
+          <img src={strathBanner} className='h-[12vw]' />
+        </div>
 
-          {/* <div className='w-[15vw] bg-nav-blue text-[1vw] text-white pl-[0.5vw]'>
-            <p className='my-[0.1vw]'>
-              DITNRB242622
+        <div className='absolute left-[30vw] top-[20vw] w-[60vw] pt-[0.5vw] bg-white flex justify-center rounded-[1vw]'>
+          <div>
+            <p className='font-bold text-[1.2vw] mb-[1vw] text-center text-strathmore-red'>
+              ACADEMIC PROGRAMES
             </p>
 
-            <p className='my-[0.1vw]'>
-              Martin Maina
-            </p>
+            <table className='text-center'>
+              <tr className='bg-strathmore-yellow'>
+                <th>PROGRAMME/S</th>
+                <th>SYLLABUS</th>
+                <th>STATUS</th>
+                <th>YEAR</th>
+                <th>GRADE</th>
+                <th>REMARKS</th>
+              </tr>
 
-            <p className='my-[0.1vw]'>
-              03 March 2023
-            </p>
-          </div> */}
-
-          {profileData.map((word, index) => (
-            <div className='w-[15vw] bg-nav-blue text-[1vw] text-white pl-[0.5vw]'>
-              <p className='my-[0.1vw]'>
-                DITNRB242622
-              </p>
-
-              <p className='my-[0.1vw]'>
-                Martin Maina
-              </p>
-
-              <p className='my-[0.1vw]'>
-                03 March 2023
-              </p>
-            </div>
-          ))}
+              <tr>
+                <td>Bachelor of Law, LLB</td>
+                <td>LLB</td>
+                <td>INTERRUPTED</td>
+                <td>2022</td>
+                <td>N/A</td>
+                <td>N/A</td>
+              </tr>
+            </table>
+          </div>
         </div>
     </div>
   )
