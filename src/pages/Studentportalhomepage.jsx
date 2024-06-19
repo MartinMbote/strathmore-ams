@@ -153,6 +153,14 @@ const Studentportalhomepage = () => {
             </table>
           </div>
         </div>
+
+        <div className='flex justify-center'>
+              <div className='z-20 text-[1vw] text-white mt-[41.8vw]'>
+                  <p>
+                      &copy; Strathmore University 2023
+                  </p>
+              </div> 
+          </div>
     </div>
   )
 }
