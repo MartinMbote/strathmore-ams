@@ -103,17 +103,17 @@ const Studentportalhomepage = () => {
               ACADEMIC PROGRAMES
             </p>
 
-            <table className='text-center'>
-              <tr className='bg-strathmore-yellow'>
-                <th>PROGRAMME/S</th>
-                <th>SYLLABUS</th>
-                <th>STATUS</th>
-                <th>YEAR</th>
-                <th>GRADE</th>
-                <th>REMARKS</th>
+            <table className='text-center text-[1vw]'>
+              <tr className='bg-strathmore-yellow text-strathmore-blue'>
+                <th className='border-white border-[0.2vw]'>PROGRAMME/S</th>
+                <th className='border-white border-[0.2vw]'>SYLLABUS</th>
+                <th className='border-white border-[0.2vw]'>STATUS</th>
+                <th className='border-white border-[0.2vw]'>YEAR</th>
+                <th className='border-white border-[0.2vw]'>GRADE</th>
+                <th className='border-white border-[0.2vw]'>REMARKS</th>
               </tr>
 
-              <tr>
+              <tr className='bg-custom-grey'>
                 <td>Bachelor of Law, LLB</td>
                 <td>LLB</td>
                 <td>INTERRUPTED</td>
