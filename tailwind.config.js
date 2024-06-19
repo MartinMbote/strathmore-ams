@@ -20,6 +20,7 @@ export default {
         'maroon': '#894c59',
         'light-yellow': '#f8d280',
         'custom-grey': '#7d7d7d',
+        'custom-light-grey': '#bbbbbb',
       },
     },
   },
