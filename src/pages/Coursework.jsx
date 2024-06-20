@@ -16,7 +16,7 @@ const Coursework = () => {
 
                 <table className='text-center text-[1vw]'>
                     <tr className='bg-strathmore-red text-white'>
-                        <th className='border-white border-[0.2vw] w-[60vw] py-[0.5vw] text-start' colspan="5">
+                        <th className='border-white border-[0.2vw] w-[60vw] py-[0.5vw] text-start' colspan="6">
                             <span className='ml-[0.8vw]'>
                                 ACADEMIC YEAR: 20222-2023
                             </span>
