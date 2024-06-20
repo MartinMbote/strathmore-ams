@@ -1,16 +1,20 @@
 import React from 'react'
 import { me, homeIcon, registrationIcon, courseWorkIcon, attendanceIcon, mentorshipIcon, progressIcon, examsIcon, feeIcon, graduationIcon } from '../assets';
+import { Link } from 'react-router-dom';
+
 
 const SidePanel = () => {
 
   const sidePanelData = [
 
     {
+      path:'/strathmore-ams/studentportal',
         title: "Profile",
         image: [homeIcon],
     },
 
     {
+      path:"/self",
         title: "Self Registration",
         image: [registrationIcon],
     },
@@ -75,6 +79,8 @@ const SidePanel = () => {
           </div>
 
           {sidePanelData.map((option, index) => (
+            <Link to={option.path}  >
+          
               <div key={index} className='cursor-pointer'>
                   <div className='flex gap-[0.8vw] py-[0.5vw] pl-[1vw] mb-[0.5vw] hover:bg-strathmore-red font-semibold text-[1.25vw] hover:text-white transition-colors duration-200 ease-in-out'>
                       <img src={option.image} className='h-[1.8vw]' />
@@ -83,7 +89,7 @@ const SidePanel = () => {
                           {option.title}
                       </p>
                   </div>
-              </div>
+              </div>  </Link>
             ))}
         </div>
     </div>

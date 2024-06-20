@@ -2,6 +2,7 @@ import React from 'react'
 import NavbarStudentPortal from '../components/NavbarStudentPortal'
 import SidePanel from '../components/SidePanel'
 import { bgImage, strathBanner } from '../assets'
+import Background from '../components/Background'
 
 const Studentportalhomepage = () => {
 
@@ -45,11 +46,12 @@ const Studentportalhomepage = () => {
   return (
     <div>
         <NavbarStudentPortal />
+        <Background />
 
-        <div className='fixed left-[15vw]'>
+        {/* <div className='fixed left-[15vw]'>
           <div className='w-full h-[43.8vw] opacity-50 bg-nav-blue absolute'></div>
           <img src={bgImage} className='h-[43.85vw] w-[85vw]' />
-        </div>
+        </div> */}
 
         <SidePanel />
 
@@ -155,12 +157,12 @@ const Studentportalhomepage = () => {
         </div>
 
         <div className='flex justify-center'>
-              <div className='z-20 text-[1vw] text-white mt-[41.8vw]'>
-                  <p>
-                      &copy; Strathmore University 2023
-                  </p>
-              </div> 
-          </div>
+            <div className='z-20 text-[1vw] text-white mt-[41.8vw]'>
+                <p>
+                    &copy; Strathmore University 2023
+                </p>
+            </div> 
+        </div>
     </div>
   )
 }
