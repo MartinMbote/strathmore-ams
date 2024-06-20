@@ -46,13 +46,7 @@ const Studentportalhomepage = () => {
   return (
     <div>
         <NavbarStudentPortal />
-        <Background />
-
-        {/* <div className='fixed left-[15vw]'>
-          <div className='w-full h-[43.8vw] opacity-50 bg-nav-blue absolute'></div>
-          <img src={bgImage} className='h-[43.85vw] w-[85vw]' />
-        </div> */}
-
+        <Background />        
         <SidePanel />
 
         <div className='absolute left-[30vw] top-[7vw] flex'>

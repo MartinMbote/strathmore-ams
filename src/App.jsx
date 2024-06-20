@@ -12,7 +12,7 @@ function App() {
         <Route path="strathmore-ams/" element={<Homepage />}></Route>
         <Route path="strathmore-ams/loginpage" element={<Loginpage />}></Route>
         <Route path="strathmore-ams/studentportal" element={<Studentportalhomepage />}></Route>
-        <Route path="self" element={<Self />}   />
+        <Route path="strathmore-ams/self" element={<Self />}   />
       </Routes>
     </BrowserRouter>
   )

@@ -14,7 +14,7 @@ const SidePanel = () => {
     },
 
     {
-        path:"/self",
+        path:"/strathmore-ams/self",
         title: "Self Registration",
         image: [registrationIcon],
     },
