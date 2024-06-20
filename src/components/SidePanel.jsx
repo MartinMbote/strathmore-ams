@@ -20,6 +20,7 @@ const SidePanel = () => {
     },
 
     {
+        path:"/strathmore-ams/coursework",
         title: "Coursework",
         image: [courseWorkIcon],
     },
