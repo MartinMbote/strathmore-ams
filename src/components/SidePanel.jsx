@@ -8,13 +8,13 @@ const SidePanel = () => {
   const sidePanelData = [
 
     {
-      path:'/strathmore-ams/studentportal',
+        path:'/strathmore-ams/studentportal',
         title: "Profile",
         image: [homeIcon],
     },
 
     {
-      path:"/self",
+        path:"/self",
         title: "Self Registration",
         image: [registrationIcon],
     },
