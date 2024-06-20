@@ -87,13 +87,21 @@ function Self() {
         </div>
         
         <div>
-          <div className='absolute left-[20vw] top-[35vw] w-[70vw] pt-[0.5vw] bg-white flex justify-center rounded-[1vw]'>
+          <div className='absolute left-[20vw] top-[22vw] w-[70vw] py-[2vw] bg-white flex justify-center rounded-[1vw]'>
             <div>
-              {/* <p className='font-bold text-[1.2vw] mb-[1vw] text-center text-strathmore-red'>
-                ACADEMIC PROGRAMES
-              </p> */}
+              <div className='flex cursor-pointer'>
+                <p className='py-[0.4vw] w-[10vw] bg-strathmore-yellow rounded-t-[0.5vw] text-center text-strathmore-red font-semibold'>
+                  REGISTER
+                </p>
 
-              <table className='text-center text-[1vw] mb-[2.5vw]'>
+                <p className='py-[0.4vw] w-[12vw] text-strathmore-blue hover:bg-strathmore-yellow rounded-t-[0.5vw] text-center hover:text-strathmore-red font-semibold'>
+                  REGISTERED UNITS
+                </p>
+              </div>
+
+              <div className='w-full h-[0.07vw] mb-[0.5vw] bg-custom-grey'></div>
+
+              <table className='text-center text-[1vw]'>
                 <tr className='bg-strathmore-yellow text-strathmore-blue'>
                   <th className='border-white border-[0.2vw] w-[15vw]'>SUBJECT CODE</th>
                   <th className='border-white border-[0.2vw] w-[10vw]'>NAME</th>
