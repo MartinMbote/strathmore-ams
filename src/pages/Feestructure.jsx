@@ -1,8 +1,15 @@
 import React from 'react'
+import NavbarStudentPortal from '../components/NavbarStudentPortal'
+import SidePanel from '../components/SidePanel'
+import Background from '../components/Background'
 
 const Feestructure = () => {
   return (
-    <div>Feestructure</div>
+    <div>
+        <NavbarStudentPortal />
+        <SidePanel />
+        <Background />
+    </div>
   )
 }
 

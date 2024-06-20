@@ -46,6 +46,7 @@ const SidePanel = () => {
     },
 
     {
+      path: "/strathmore-ams/feestructure",
       title: "Fee Structure",
       image: [feeIcon],
     },

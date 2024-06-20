@@ -49,19 +49,19 @@ const Coursework = () => {
                     </tr>
 
                     <tr className='bg-custom-light-grey font-semibold'>
-                        <td className='border-white border-[0.2vw] text-start pl-[1vw]' colSpan="2">Host Assessment</td>
-                        <td className='border-white border-[0.2vw]'></td>
-                        <td className='border-white border-[0.2vw] text-strathmore-red bg-white'>42/50</td>
-                        <td className='border-white border-[0.2vw]'>-</td>
-                        <td className='border-white border-[0.2vw]'>-</td>
+                        <td className='border-white border-r-[0.2vw] text-start pl-[1vw]' colSpan="2">Host Assessment</td>
+                        <td className='border-white border-r-[0.2vw]'></td>
+                        <td className='border-white border-r-[0.2vw] text-strathmore-red bg-white'>42/50</td>
+                        <td className='border-white border-r-[0.2vw]'>-</td>
+                        <td className='border-white border-r-[0.2vw]'>-</td>
                     </tr>
 
                     <tr className='bg-custom-light-grey font-semibold'>
-                        <td className='border-white border-[0.2vw] text-start pl-[1vw]' colSpan="2">Faculty Assessment</td>
-                        <td className='border-white border-[0.2vw]'></td>
-                        <td className='border-white border-[0.2vw] text-strathmore-red bg-white'>42/50</td>
-                        <td className='border-white border-[0.2vw]'>-</td>
-                        <td className='border-white border-[0.2vw]'>-</td>
+                        <td className='border-white border-r-[0.2vw] text-start pl-[1vw]' colSpan="2">Faculty Assessment</td>
+                        <td className='border-white border-r-[0.2vw]'></td>
+                        <td className='border-white border-r-[0.2vw] text-strathmore-red bg-white'>42/50</td>
+                        <td className='border-white border-r-[0.2vw]'>-</td>
+                        <td className='border-white border-r-[0.2vw]'>-</td>
                     </tr>
                 </table> 
             </div> 
