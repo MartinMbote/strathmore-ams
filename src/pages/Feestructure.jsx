@@ -43,7 +43,7 @@ const Feestructure = () => {
             <div className='w-full h-[0.07vw] mb-[0.5vw] bg-custom-grey'></div>
 
             <table className='text-center text-[1vw]'>
-                    <tr className='bg-strathmore-red text-white'>
+                    {/* <tr className='bg-strathmore-red text-white'>
                         <th className='border-white border-[0.2vw] w-[60vw] py-[0.5vw] text-start' colspan="6">
                             <span className='ml-[0.8vw]'>
                                 ACADEMIC YEAR: 20222-2023
@@ -53,44 +53,52 @@ const Feestructure = () => {
                                 Semester 1: Annual
                             </span>
                         </th>                                          
+                    </tr> */}
+
+                    <tr className='bg-strathmore-yellow font-bold text-strathmore-blue'>
+                        <td className='border-white border-[0.2vw] w-[30vw]' rowSpan="2" colSpan="2">DATE</td>
+                        <td className='border-white border-[0.2vw] w-[15vw]' rowSpan="2" colSpan="2">DOCUMENT No.</td>                        
+                        <td className='border-white border-[0.2vw] w-[15vw]' rowSpan="2" colSpan="2">DOCUMENT TYPE</td>
+                        <td className='border-white border-[0.2vw] w-[15vw]' colSpan="2">AMOUNT(In Ksh.)</td>
+                                                                       
                     </tr>
 
                     <tr className='bg-strathmore-yellow font-semibold text-strathmore-blue'>
-                        <td className='border-white border-[0.2vw] w-[30vw]' rowSpan="2" colSpan="2">Subject</td>
-                        <td className='border-white border-[0.2vw] w-[15vw]' colSpan="2">Ordinary Exams</td>                        
-                        <td className='border-white border-[0.2vw] w-[15vw]' colSpan="2">Supplementary Exams</td>                                               
-                    </tr>
-
-                    <tr className='bg-strathmore-yellow font-semibold text-strathmore-blue'>
-                        <td className='border-white border-[0.2vw]' >Attempt no.</td>
-                        <td className='border-white border-[0.2vw]'>Mark</td>
-                        <td className='border-white border-[0.2vw]'>Attempt no. </td>
-                        <td className='border-white border-[0.2vw]'>Mark</td>                        
+                        <td className='bg-strathmore-red text-white border-white border-[0.2vw]' >Debit</td>
+                        <td className='bg-strathmore-red text-white border-white border-[0.2vw]'>Credit</td>                                              
                     </tr>
 
                     <tr className='bg-custom-grey text-white font-semibold'>
-                        <td className='border-white border-[0.2vw] text-start pl-[1vw]' colSpan="2">Community-Based Assessment </td>
-                        <td className='border-white border-[0.2vw]'>1</td>
-                        <td className='border-white border-[0.2vw] bg-green'>90</td>
-                        <td className='border-white border-[0.2vw]'>-</td>
-                        <td className='border-white border-[0.2vw]'>-</td>
+                        <td className='border-white border-[0.2vw] pl-[1vw]' colSpan="2">14-11-2022</td>
+                        <td className='border-white border-[0.2vw]' colSpan="2">57849313</td>                        
+                        <td className='border-white border-[0.2vw]' colSpan="2">Invoice</td>
+                        <td className='border-white border-[0.2vw]'>70,000.00 </td>
+                        <td className='border-white border-[0.2vw]'>0.00</td>
                     </tr>
 
-                    <tr className='bg-custom-light-grey font-semibold'>
-                        <td className='border-white border-r-[0.2vw] text-start pl-[1vw]' colSpan="2">Host Assessment</td>
-                        <td className='border-white border-r-[0.2vw]'></td>
-                        <td className='border-white border-r-[0.2vw] text-strathmore-red bg-white'>42/50</td>
-                        <td className='border-white border-r-[0.2vw]'>-</td>
-                        <td className='border-white border-r-[0.2vw]'>-</td>
-                    </tr>
+                    <tr className='bg-custom-light-grey  font-semibold'>
+                        <td className='border-white border-[0.2vw] pl-[1vw]' colSpan="2">14-11-2022</td>
+                        <td className='border-white border-[0.2vw]' colSpan="2">57849313</td>                        
+                        <td className='border-white border-[0.2vw]' colSpan="2">Invoice</td>
+                        <td className='border-white border-[0.2vw]'>70,000.00 </td>
+                        <td className='border-white border-[0.2vw]'>0.00</td>
+                    </tr>   
 
-                    <tr className='bg-custom-light-grey font-semibold'>
-                        <td className='border-white border-r-[0.2vw] text-start pl-[1vw]' colSpan="2">Faculty Assessment</td>
-                        <td className='border-white border-r-[0.2vw]'></td>
-                        <td className='border-white border-r-[0.2vw] text-strathmore-red bg-white'>42/50</td>
-                        <td className='border-white border-r-[0.2vw]'>-</td>
-                        <td className='border-white border-r-[0.2vw]'>-</td>
-                    </tr>
+                    <tr className='bg-custom-grey text-white font-semibold'>
+                        <td className='border-white border-[0.2vw] pl-[1vw]' colSpan="2">14-11-2022</td>
+                        <td className='border-white border-[0.2vw]' colSpan="2">57849313</td>                        
+                        <td className='border-white border-[0.2vw]' colSpan="2">Transfer Credit </td>
+                        <td className='border-white border-[0.2vw]'>0.00 </td>
+                        <td className='border-white border-[0.2vw]'>80,000.00</td>
+                    </tr>  
+
+                    <tr className='bg-custom-light-grey  font-semibold'>
+                        <td className='border-white border-[0.2vw] pl-[1vw]' colSpan="2">14-11-2022</td>
+                        <td className='border-white border-[0.2vw]' colSpan="2">57849313</td>                        
+                        <td className='border-white border-[0.2vw]' colSpan="2">Invoice</td>
+                        <td className='border-white border-[0.2vw]'>70,000.00 </td>
+                        <td className='border-white border-[0.2vw]'>0.00</td>
+                    </tr>             
                 </table> 
           </div>
         </div>
