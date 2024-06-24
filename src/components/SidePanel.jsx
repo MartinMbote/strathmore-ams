@@ -26,6 +26,7 @@ const SidePanel = () => {
     },
 
     {
+        path: "/strathmore-ams/attendance",
         title: "Attendance",
         image: [attendanceIcon],
     },
