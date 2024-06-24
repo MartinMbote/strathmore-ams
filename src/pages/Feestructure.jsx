@@ -28,7 +28,7 @@ const Feestructure = () => {
           </p>
         </div>
 
-        <div className='absolute w-[63vw] h-[40vw] bg-white left-[33.5vw] top-[7vw] rounded-[0.7vw] pt-[1vw] flex justify-center'>
+        <div className='absolute w-[65vw] pb-[1vw] bg-white left-[33.5vw] top-[7vw] rounded-[0.7vw] pt-[1vw] flex justify-center'>
           <div>
             <div className='flex cursor-pointer'>
               <p className='py-[0.4vw] w-[10vw] bg-strathmore-yellow rounded-t-[0.5vw] text-center text-strathmore-red font-semibold'>
@@ -98,8 +98,39 @@ const Feestructure = () => {
                         <td className='border-white border-[0.2vw]' colSpan="2">Invoice</td>
                         <td className='border-white border-[0.2vw]'>70,000.00 </td>
                         <td className='border-white border-[0.2vw]'>0.00</td>
+                    </tr>
+
+                    <tr className='bg-strathmore-yellow text-strathmore-blue  font-bold'>
+                      <td className='border-white border-[0.2vw] pl-[1vw]' colSpan="6">Fee Summary</td>
+                      <td className='border-white border-[0.2vw] pl-[1vw]' colSpan="2">210,000.00</td>
                     </tr>             
                 </table> 
+
+                <div className='flex justify-center mt-[3vw]'>
+                  <div className='bg-green w-[20vw] py-[0.4vw] text-center text-white font-bold rounded-[1vw] text-[1vw] cursor-pointer'>
+                    <p>
+                      DOWNLOAD STATEMENT
+                    </p>
+                  </div>
+                </div>
+
+                <div className='flex justify-center mt-[1vw]'>
+                  <div className='px-[0.5vw] pb-[1vw] bg-nav-blue text-[1vw] flex justify-center pt-[0.4vw] font-semibold rounded-[0.5vw]'>
+                    <div>
+                      <p className='text-white pb-[1vw]'>
+                        For Inquiries/Complains/Feedback
+                      </p>
+
+                      <form>
+                        <input type="text" placeholder='Write Here...' className='border placeholder-gray-300 text-[1vw] pl-[1vw] border-gray-400 rounded-[0.4vw] w-[40vw] h-[10vw]' />
+
+                        <div className='flex justify-center'>
+                            <button className='py-[0.3vw] px-[1vw] text-[1vw] cursor-pointer font-semibold text-white bg-strathmore-red mt-[1.5vw]'>Submit</button>
+                        </div>
+                      </form>
+                    </div>
+                  </div>
+                </div>
           </div>
         </div>
     </div>
