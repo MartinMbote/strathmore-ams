@@ -22,6 +22,7 @@ export default {
         'custom-grey': '#7d7d7d',
         'custom-light-grey': '#bbbbbb',
         'green': '#79d956',
+        'light-purple': '#f3f6ff',
       },
     },
   },
