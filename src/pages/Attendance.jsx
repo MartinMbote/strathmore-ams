@@ -3,6 +3,7 @@ import NavbarStudentPortal from '../components/NavbarStudentPortal'
 import SidePanel from '../components/SidePanel'
 import Background from '../components/Background'
 import Calendar from 'react-calendar'
+import 'react-calendar/dist/Calendar.css';
 
 const Attendance = () => {
   return (
@@ -93,7 +94,7 @@ const Attendance = () => {
                     </div>
 
                     <div>
-                        <Calendar className='text-[1vw] w-[16vw] ml-[1vw] rounded-[1vw] bg-light-purple h-[12vw]' />
+                        <Calendar className='text-[1vw] ml-[1vw] rounded-[1vw] bg-light-purple' />
 
                         <div className='w-[16vw] pt-[0.7vw] bg-strathmore-red h-[16vw] ml-[1vw] rounded-[1vw] mt-[1vw] text-white'>
                             <p className='text-center text-[1.1vw] mb-[1vw]'>

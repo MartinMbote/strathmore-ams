@@ -7,6 +7,7 @@ import Self from "./pages/Self"
 import Coursework from "./pages/Coursework"
 import Feestructure from "./pages/Feestructure"
 import Attendance from "./pages/Attendance"
+import Mentorship from "./pages/Mentorship"
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
         <Route path="strathmore-ams/coursework" element={<Coursework />}/>
         <Route path="strathmore-ams/feestructure" element={<Feestructure />}/>
         <Route path="strathmore-ams/attendance" element={<Attendance />} />
+        <Route path="strathmore-ams/mentorship" element={<Mentorship />} />
       </Routes>
     </BrowserRouter>
   )
