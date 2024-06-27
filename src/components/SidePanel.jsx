@@ -60,7 +60,7 @@ const SidePanel = () => {
 
   return (
     <div>
-        <div className='w-[15vw] h-[43.8vw] bg-strathmore-yellow z-10 fixed pt-[1vw]'>
+        <div className='w-[15vw] h-[43.8vw] bg-strathmore-yellow z-10 fixed top-[5vw] pt-[1vw]'>
           <div className='ml-[0.5vw] flex gap-[0.6vw]'>
             <img src={me} className='rounded-[10vw] h-[4.5vw]' />
 
